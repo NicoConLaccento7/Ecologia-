@@ -34,4 +34,40 @@ async def vetro(ctx):
 async def legno(ctx):
     await ctx.send(f"Il tempo di decomposizione del legno varia da 1 a 3 anni")
 
+# --- comandi nuovi ---
+
+@bot.command()
+async def polistirolo(ctx):
+    await ctx.send(f"Il tempo di decomposizione del polistirolo è di circa 1000 anni")
+
+@bot.command()
+async def chewinggum(ctx):
+    await ctx.send(f"Il tempo di decomposizione della chewing gum è di circa 5 anni")
+
+@bot.command()
+async def nylon(ctx):
+    await ctx.send(f"Il tempo di decomposizione dei tessuti in nylon è di 30-40 anni")
+
+@bot.command()
+async def torsolo(ctx):
+    await ctx.send(f"Il tempo di decomposizione del torsolo di mela è di circa 2 settimane")
+
+@bot.command()
+async def sigaretta(ctx):
+    await ctx.send(f"Il tempo di decomposizione della sigaretta è di 1-2 anni")
+
+@bot.command()
+async def banana(ctx):
+    await ctx.send(f"Il tempo di decomposizione della banana è di 6 settimane")
+
+@bot.command()
+async def Ccotone(ctx):  # <----- La C in maiscolo indica "Capi"
+    await ctx.send(f"Il tempo di decomposizione dei capi in cotone varia da 2 a 5 mesi")
+
+@bot.command()
+async def gomma(ctx):
+    await ctx.send(f"Il tempo di decomposizione della gomma varia da 50 a 80 anni")
+
+# --------------
+
 bot.run("MTM2ODEzMTkzNjQ5MjcxNjEzMw.GAAV4v.T7oRaUaYPFdfzW9Ngau6o9S_vOZOrXVsXGKGxg")
