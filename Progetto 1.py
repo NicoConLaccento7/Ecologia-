@@ -69,5 +69,3 @@ async def gomma(ctx):
     await ctx.send(f"Il tempo di decomposizione della gomma varia da 50 a 80 anni")
 
 # --------------
-
-bot.run("MTM2ODEzMTkzNjQ5MjcxNjEzMw.GAAV4v.T7oRaUaYPFdfzW9Ngau6o9S_vOZOrXVsXGKGxg")
